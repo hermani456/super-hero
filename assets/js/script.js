@@ -17,7 +17,7 @@ const heroInput = document.querySelector("#hero-input")
 form.addEventListener("submit", (e) => {
 	e.preventDefault()
 	const valueInput = heroInput.value
-	const patron = /[0-9]/gim
+	const patron = /^\d*[1-9]\d*$/
 	if (valueInput.match(patron)) {
 		fetch(
 			"https://www.superheroapi.com/api.php/4905856019427443/" + valueInput
@@ -79,6 +79,6 @@ form.addEventListener("submit", (e) => {
 			})
 		})
 	} else {
-		alert("solo se permiten numeros como input")
+		alert("Solo se permiten numeros positivos como input")
 	}
 })
