@@ -33,23 +33,23 @@ form.addEventListener("submit", (e) => {
 
 			// escribiendo resultados al dom
 			heroInfo.innerHTML = `
-			<div class="mb-3" id="card">
+			<div class="mb-3 card" id="card">
 				<div class="row g-0">
-					<div class="col-md-4" id="hero-img">
-						<img src="${image}" class="img-fluid rounded-start">
+					<div class="col-md-4">
+						<img src="${image}" class="img-fluid rounded-start" id="img">
 					</div>
 					<div class="col-md-8">
 						<div class="card-body">
-							<h5 class="card-title" id="hero-name"><span class="fw-bold">Name:</span> ${name}</h5>
-							<p class="card-text" id="hero-connections"><span class="fw-bold">Connections:</span> ${connections}</p>
+							<h5 class="card-title"><span class="fw-bold">Name:</span> ${name}</h5>
+							<p class="card-text"><span class="fw-bold">Connections:</span> ${connections}</p>
 							<p class="card-text">
-								<small class="text-muted" id="hero-publisher"><span class="fw-bold">Publisher: ${publisher}</span></small>
+								<small class="text-muted"><span class="fw-bold">Publisher: ${publisher}</span></small>
 							</p>
-							<p class="card-text" id="hero-occupation"><span class="fw-bold">Occupation:</span> ${occupation}</p>
-							<p class="card-text" id="hero-first-appearance"><span class="fw-bold">First Appearance:</span> ${firstAppearance}</p>
-							<p class="card-text" id="hero-height"><span class="fw-bold">Height:</span> ${height}</p>
-							<p class="card-text" id="hero-weight"><span class="fw-bold">Weight:</span> ${weight}</p>
-							<p class="card-text" id="hero-aliases"><span class="fw-bold">Aliases:</span> ${Object.values(aliases)}</p>
+							<p class="card-text"><span class="fw-bold">Occupation:</span> ${occupation}</p>
+							<p class="card-text"><span class="fw-bold">First Appearance:</span> ${firstAppearance}</p>
+							<p class="card-text"><span class="fw-bold">Height:</span> ${height}</p>
+							<p class="card-text"><span class="fw-bold">Weight:</span> ${weight}</p>
+							<p class="card-text"><span class="fw-bold">Aliases:</span> ${Object.values(aliases)}</p>
 						</div>
 					</div>
 				</div>

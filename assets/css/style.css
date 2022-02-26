@@ -10,13 +10,14 @@ body{
 /* cambia de color el boton consultar */
 .btn-outline-danger{
    background: rgb(223,26,26);
-   color: white;
+   color: #ffe501;
 }
 /* cambia de color el boton consultar al hacerle hover */
 .btn-outline-danger:hover{
-   background: rgba(196,195,29,1);
+   background: #ffe501;
+   color: rgb(223,26,26);
 }
-/* define font a usar en la card, define su background a transparente y el color a blanco */
+/* define el font a usar en la card, define su background a transparente y el color a blanco */
 #card{
    font-family: 'Oligopoly', sans-serif;
    background-color: transparent;
