@@ -35,3 +35,9 @@ body{
 .emoji{
    font-size: 18rem;
 }
+/* mediaquery que evita que la imagen del card exeda los 12rem a resoluciones menores a 768px */
+@media (max-width: 768px) {
+   #img {
+      max-width: 12rem;
+   }
+}
