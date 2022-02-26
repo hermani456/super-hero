@@ -11,4 +11,4 @@ mostrar un grafico con sus poderes utilizando canvasJS.
 - [SuperHero API](https://superheroapi.com/) - Obten todos los datos de tus SuperHeroes y Villanos.
 - [CDN|Fonts](https://fonts.cdnfonts.com) - Coleccion de fonts gratis para utilizar en tu sitio web.
 
-##### Visita: [Encuentra tu SuperHero](https://diegocampuzano.ml/super-hero/)
+### Visita: [Encuentra tu SuperHero](https://diegocampuzano.ml/super-hero/)
