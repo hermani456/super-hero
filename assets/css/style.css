@@ -1,40 +1,36 @@
+/* importa fonts personalizadas */
 @import url('https://fonts.cdnfonts.com/css/galpon');
 @import url('https://fonts.cdnfonts.com/css/oligopoly');
+/* define font family y colores para usar en la pagina */
 body{
    font-family: 'Galpon', sans-serif;
    color: #5d5d4f;
    background-color: #0C0A3E;
 }
-/* #hero-stats{
-   height: auto;
-   min-width: 600px;
-} */
-/* body{
-   background: rgb(223,26,26);
-   background: linear-gradient(90deg, rgba(223,26,26,1) 0%, rgba(196,195,29,1) 50%, rgba(223,26,26,1) 100%);
-} */
+/* cambia de color el boton consultar */
 .btn-outline-danger{
    background: rgb(223,26,26);
    color: white;
 }
+/* cambia de color el boton consultar al hacerle hover */
 .btn-outline-danger:hover{
    background: rgba(196,195,29,1);
 }
-.center{
-   display: flex;
-   justify-content: space-between;
-}
+/* define font a usar en la card, define su background a transparente y el color a blanco */
 #card{
+   font-family: 'Oligopoly', sans-serif;
    background-color: transparent;
    color: white;
-   font-family: 'Oligopoly', sans-serif;
 }
+/* define color a la navbar (transparente en este caso) */
 .navbar{
    background-color: #fffb0000
 }
+/* cambia de color el texto en la navbar */
 .color{
    color: #5d5d4f;
 }
+/* aumenta el tamaño del emoji que aparece al dar error el grafico */
 .emoji{
    font-size: 18rem;
 }
