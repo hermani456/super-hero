@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
 			// asignando variables a los datos entregados por el json
 			const name = data.name
 			const image = data.image.url
-			var connections = data.connections
+			let connections = data.connections
 			connections = Object.values(connections)[0]
 			const publisher = data.biography.publisher
 			const occupation = data.work.occupation
@@ -29,14 +29,7 @@ form.addEventListener("submit", (e) => {
 			// if(connections === '-'){
 			// 	connections = 'Unkown'
 			// }
-			console.log(connections)
-			check(connections)
 			
-			function check(a){
-				a = 'luti'
-			}
-				
-			console.log(connections)
 
 			// escribiendo resultados al dom
 			heroInfo.innerHTML = `
