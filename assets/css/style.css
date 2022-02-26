@@ -23,9 +23,9 @@ body{
    background-color: transparent;
    color: white;
 }
-/* define color a la navbar (transparente en este caso) */
+/* define color a la navbar */
 .navbar{
-   background-color: #fffb0000
+   background-color: transparent;
 }
 /* cambia de color el texto en la navbar */
 .color{
