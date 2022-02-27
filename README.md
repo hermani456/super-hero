@@ -6,7 +6,7 @@ mostrar un grafico con sus poderes utilizando canvasJS.
 
 ## Herramientas usadas
 
-- [Boostrap](https://getbootstrap.com/) - Css framework enfocado en mobile-first.
+- [Bootstrap](https://getbootstrap.com/) - Css framework enfocado en mobile-first.
 - [canvasJS](https://canvasjs.com/) - Libreria de graficos HTML5 responsiva.
 - [SuperHero API](https://superheroapi.com/) - Obten todos los datos de tus SuperHeroes y Villanos.
 - [CDN|Fonts](https://www.cdnfonts.com/) - Coleccion de fonts gratis para utilizar en tu sitio web.
