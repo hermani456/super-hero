@@ -11,6 +11,7 @@ form.addEventListener("submit", (e) => {
 	const patron = /^\d*[1-9]\d*$/
 	if (!valueInput.match(patron) || valueInput > 732) {
 		alert("Solo se permiten numeros del rango: ( 1 - 732 )")
+		return
 	}
 	fetch(
 		"https://www.superheroapi.com/api.php/4905856019427443/" + valueInput
